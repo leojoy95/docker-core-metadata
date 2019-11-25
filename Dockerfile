@@ -26,9 +26,10 @@ ENV APP_DIR=/edgex/edgex-core-metadata
 ENV APP=core-metadata.jar
 ENV APP_PORT=48081
 
+
 #copy JAR and property files to the image
-COPY *.jar $APP_DIR/$APP
-COPY *.properties $APP_DIR/
+#COPY *.jar $APP_DIR/$APP
+#COPY *.properties $APP_DIR/
 
 #expose meta data port
 EXPOSE $APP_PORT
