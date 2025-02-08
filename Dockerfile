@@ -16,7 +16,7 @@
 ###############################################################################
 # Docker image for Core Meta Data micro service 
 # FROM java:8
-FROM alpine:3.7
+FROM alpine:3.19.6
 MAINTAINER Jim White <james_white2@dell.com>
 
 RUN apk --update add openjdk8-jre
